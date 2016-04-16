@@ -1,0 +1,103 @@
+push
+#I>B>B
+#
+#modify for NECK
+translate
+0 10 0
+#I>B>N
+#
+#draw NECK
+torus
+0 0 10 15
+sphere
+0 0 5
+#////////////////////////////
+push
+#I>B>N>N
+#
+#modify for HEAD
+translate
+0 60 0
+#I>B>N>H
+#
+#draw HEAD
+sphere
+0 0 50
+sphere
+0 0 5
+#////////////////////////////
+pop
+#I>B>N
+#
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for ARM1
+translate
+-75 0 0
+#I>B>A1
+#
+#draw ARM1
+box
+-25 0 25 50 100 50
+sphere
+0 0 5
+#////////////////////////////
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for ARM2
+translate
+75 0 0
+#I>B>A2
+#
+#draw ARM2
+box
+-25 0 25 50 100 50
+sphere
+0 0 5
+#////////////////////////////
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for LEG1
+translate
+0 -200 0
+#I>B>L1
+#
+#draw LEG1
+box
+0 0 25 50 100 50
+sphere
+0 0 5
+#////////////////////////////
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify LEG2
+translate
+50 -200 0
+#I>B>L2
+#
+#draw LEG2
+box
+0 0 25 50 100 50
+sphere
+0 0 5
+#////////////////////////////
+pop
+#I>B
+save
+test.png

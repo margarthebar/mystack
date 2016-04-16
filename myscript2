@@ -1,0 +1,205 @@
+#I
+#///////////////////////////
+push
+#I>I
+#
+#modify for BODY
+#xrotate
+#20
+translate
+250 285 0
+#I>B
+#
+#draw BODY
+box
+-50 80 25 100 160 50
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>B
+#
+#modify for NECK
+translate
+0 90 0
+#I>B>N
+#
+#draw NECK
+torus
+0 0 10 15
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>N>N
+#
+#modify for HEAD
+translate
+0 60 0
+#I>B>N>H
+#
+#draw HEAD
+sphere
+0 0 50
+#sphere
+#0 0 5
+#////////////////////////////
+pop
+#I>B>N
+#
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for ARM1
+translate
+-75 55 0
+#I>B>A1
+#
+#draw ARM1
+box
+-25 25 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>A1>A1
+#
+#modify for A1a
+translate
+0 -75 0
+#I>B>A1>A1a
+#
+#draw ARM1a
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+pop
+#I>B>A1
+#
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for ARM2
+translate
+75 55 0
+#I>B>A2
+#
+#draw ARM2
+box
+-25 25 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>A2>A2
+#
+#modify for A2a
+translate
+0 -75 0
+#I>B>A2>A2a
+#
+#draw ARM2a
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+pop
+#I>B>A2
+#
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify for LEG1
+translate
+-25 -80 0
+#I>B>L1
+#
+#draw LEG1
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>L1>L1
+#
+#modify for L1a
+translate
+0 -100 0
+#I>B>L1>L1a
+#
+#draw LEG1a
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+pop
+#I>B>L1
+#
+pop
+#I>B
+#
+push
+#I>B>B
+#
+#modify LEG2
+translate
+25 -80 0
+#I>B>L2
+#
+#draw LEG2
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+push
+#I>B>L2>L2
+#
+#modify for L2a
+translate
+0 -100 0
+#I>B>L2>L2a
+#
+#draw LEG2a
+box
+-25 0 25 50 100 50
+#sphere
+#0 0 25
+#sphere
+#0 0 5
+#////////////////////////////
+pop
+#I>B>L1
+#
+pop
+#I>B
+save
+test.png

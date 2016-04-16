@@ -42,4 +42,7 @@ void add_torus( struct matrix * points,
 void generate_torus( struct matrix * points, 
 			  double cx, double cy, double r1, double r2, 
 			   int step );
+void add_box( struct matrix * points,
+	      double x, double y, double z,
+	      double width, double height, double depth );
 #endif
